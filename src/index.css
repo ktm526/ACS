@@ -1,0 +1,34 @@
+/* Pretendard 폰트 적용 */
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+
+/* 기본 스타일 설정 */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #2B2633; /* 로그인 페이지 배경색 */
+  color: white;
+  box-sizing: border-box;
+  font-family: 'Pretendard', sans-serif; /* Pretendard 폰트 적용 */
+  letter-spacing: -0.25px; /* 글자 자간 설정 */
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: #59575E; /* 로그인 페이지 배경색 */
+}
+
+.main-container {
+  display: flex;
+  height: 100%;
+  background-color: #2B2633; /* 다른 페이지의 기본 배경색 */
+}

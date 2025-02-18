@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3274" height="1962" viewBox="0 0 3274 1962">
+  <g id="그룹_18574" data-name="그룹 18574" transform="translate(-1721 -19444)">
+    <g id="사각형_24027" data-name="사각형 24027" transform="translate(1721 19444)" fill="none" stroke="#fff" stroke-width="20">
+      <rect width="3274" height="1956" stroke="none"/>
+      <rect x="10" y="10" width="3254" height="1936" fill="none"/>
+    </g>
+    <g id="사각형_24028" data-name="사각형 24028" transform="translate(1721 19444)" fill="none" stroke="#fff" stroke-width="8">
+      <rect width="656" height="649" stroke="none"/>
+      <rect x="4" y="4" width="648" height="641" fill="none"/>
+    </g>
+    <g id="사각형_24029" data-name="사각형 24029" transform="translate(2377 19444)" fill="none" stroke="#fff" stroke-width="8">
+      <rect width="656" height="649" stroke="none"/>
+      <rect x="4" y="4" width="648" height="641" fill="none"/>
+    </g>
+    <g id="사각형_24030" data-name="사각형 24030" transform="translate(3033 19444)" fill="none" stroke="#fff" stroke-width="8">
+      <rect width="656" height="649" stroke="none"/>
+      <rect x="4" y="4" width="648" height="641" fill="none"/>
+    </g>
+    <g id="사각형_24031" data-name="사각형 24031" transform="translate(3689 19444)" fill="none" stroke="#fff" stroke-width="8">
+      <rect width="641" height="649" stroke="none"/>
+      <rect x="4" y="4" width="633" height="641" fill="none"/>
+    </g>
+    <g id="사각형_24032" data-name="사각형 24032" transform="translate(4322 19444)" fill="none" stroke="#fff" stroke-width="8">
+      <rect width="301" height="78" stroke="none"/>
+      <rect x="4" y="4" width="293" height="70" fill="none"/>
+    </g>
+    <g id="사각형_24033" data-name="사각형 24033" transform="translate(4616 19444)" fill="none" stroke="#fff" stroke-width="8">
+      <rect width="379" height="665" stroke="none"/>
+      <rect x="4" y="4" width="371" height="657" fill="none"/>
+    </g>
+    <g id="사각형_24034" data-name="사각형 24034" transform="translate(4616 20093)" fill="none" stroke="#fff" stroke-width="8">
+      <rect width="379" height="249" stroke="none"/>
+      <rect x="4" y="4" width="371" height="241" fill="none"/>
+    </g>
+    <g id="사각형_24035" data-name="사각형 24035" transform="translate(4050 20342)" fill="none" stroke="#fff" stroke-width="8">
+      <rect width="945" height="1064" stroke="none"/>
+      <rect x="4" y="4" width="937" height="1056" fill="none"/>
+    </g>
+    <g id="사각형_24036" data-name="사각형 24036" transform="translate(3723 20342)" fill="none" stroke="#fff" stroke-width="8">
+      <rect width="327" height="1064" stroke="none"/>
+      <rect x="4" y="4" width="319" height="1056" fill="none"/>
+    </g>
+    <g id="사각형_24037" data-name="사각형 24037" transform="translate(2049 20739)" fill="none" stroke="#fff" stroke-width="8">
+      <rect width="1674" height="667" stroke="none"/>
+      <rect x="4" y="4" width="1666" height="659" fill="none"/>
+    </g>
+    <g id="사각형_24038" data-name="사각형 24038" transform="translate(1721 20739)" fill="none" stroke="#fff" stroke-width="8">
+      <rect width="328" height="667" stroke="none"/>
+      <rect x="4" y="4" width="320" height="659" fill="none"/>
+    </g>
+    <text id="Office" transform="translate(1936 19733)" fill="#fff" font-size="60" font-family="Pretendard-Regular, Pretendard"><tspan x="-81.006" y="57">Office</tspan></text>
+    <text id="Load" transform="translate(2592 19733)" fill="#fff" font-size="60" font-family="Pretendard-Regular, Pretendard"><tspan x="-66.797" y="57">Load</tspan></text>
+    <text id="System" transform="translate(3245 19733)" fill="#fff" font-size="60" font-family="Pretendard-Regular, Pretendard"><tspan x="-100.62" y="57">System</tspan></text>
+    <text id="Assembly" transform="translate(3850 19741)" fill="#fff" font-size="60" font-family="Pretendard-Regular, Pretendard"><tspan x="-130.854" y="57">Assembly</tspan></text>
+    <text id="Load-2" data-name="Load" transform="translate(4646 19741)" fill="#fff" font-size="60" font-family="Pretendard-Regular, Pretendard"><tspan x="-66.797" y="57">Load</tspan></text>
+    <text id="Printing" transform="translate(4646 20182)" fill="#fff" font-size="60" font-family="Pretendard-Regular, Pretendard"><tspan x="-102.656" y="57">Printing</tspan></text>
+    <text id="AMR" transform="translate(3723 20803)" fill="#fff" font-size="60" font-family="Pretendard-Regular, Pretendard"><tspan x="-63.193" y="57">AMR</tspan></text>
+    <text id="AMR_Load" data-name="AMR Load" transform="translate(2660 21037)" fill="#fff" font-size="60" font-family="Pretendard-Regular, Pretendard"><tspan x="-137.52" y="57">AMR Load</tspan></text>
+    <text id="Management" transform="translate(1731 21037)" fill="#fff" font-size="40" font-family="Pretendard-Regular, Pretendard"><tspan x="-117.891" y="38">Management</tspan></text>
+  </g>
+</svg>

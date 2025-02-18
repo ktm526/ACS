@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ConfiguraionRobot>
+	<VehicleTotalCount VehicleTotalCount="5"/>
+	<PerformanceMeasureLoadCount PerformanceMeasureLoadCount="50"/> //defalt 50
+	<LoadContainerTime LoadContainerTime="10"/>
+	<AGV_MaxSpeed AGV_MaxSpeed="50"/>
+	<AGV_Acc AGV_Acc="50"/>  
+	<AGV_Dcc AGV_Dcc="50"/>
+	<PerformanceMeasureEstimatedVehicleCount PerformanceMeasureEstimatedVehicleCount="60"/>
+	<PerformanceMeasureVehicleCountSpan PerformanceMeasureVehicleCountSpan="50"/>
+	<VehicleStartNumber VehicleStartNumber="2000"/>
+	<TurnAngleMargin TurnAngleMargin="0.3490658504"/> 
+	<TakeContainerTime TakeContainerTime="2.0"/>
+	<ReturnContainerTime ReturnContainerTime="2.0"/>
+</ConfiguraionRobot>

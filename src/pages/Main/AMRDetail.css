@@ -1,0 +1,68 @@
+/* 컨테이너 스타일 */
+.amr-detail-container {
+  border: 1px solid #59575e;
+  border-radius: 20px;
+  overflow: hidden;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  backdrop-filter: blur(10px); /* 글래스모피즘 효과 */
+  padding: 0; /* 헤더와 내용 간 분리 */
+  background-color: rgba(43, 38, 51, 0.85); /* 배경색 */
+}
+
+/* 헤더 스타일 - 리스트와 유사하게 */
+.amr-detail-header {
+  height: 28px;
+  background-color: #59575e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.amr-detail-header-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+}
+
+/* 콘텐츠 영역 */
+.amr-detail-content {
+  flex: 1;
+  padding: 10px;
+  overflow-y: auto; /* 스크롤 활성화 */
+}
+
+/* 테이블 스타일 */
+.amr-detail-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.amr-detail-table-row {
+  border-bottom: 1px solid #222222;
+}
+
+.amr-detail-table-cell {
+  padding: 10px;
+  color: gray;
+  text-align: left;
+  vertical-align: top;
+  font-size: 12px;
+}
+
+.amr-detail-table-cell-value {
+  font-weight: normal; /* 값은 일반 텍스트 */
+  color: white; /* 강조 색상 */
+  font-weight: bold; /* 데이터 항목 강조 */
+  font-size: 14px;
+}
+
+/* 선택된 데이터가 없을 때 메시지 */
+.amr-detail-no-data {
+  text-align: center;
+  color: gray;
+  font-style: italic;
+  margin-top: 20px;
+}

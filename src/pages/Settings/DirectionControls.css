@@ -1,0 +1,65 @@
+.direction-controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #59575e;
+  border-radius: 20px;
+  height: 100%;
+}
+
+.direction-header {
+  width: 100%;
+  background-color: #59575e;
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
+  padding: 4px 0;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+}
+
+.direction-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  flex-grow: 1;
+  padding: 20px;
+  width: 60%;
+}
+
+.direction-row {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.direction-button {
+  width: 140px; /* 버튼 너비 증가 */
+  height: 140px; /* 버튼 높이 증가 */
+  font-size: 1.8em;
+  background-color: #59575e;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, border 0.3s ease;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  border: 1px solid transparent;
+}
+
+/* 회전 버튼을 위한 스타일 */
+.direction-button.rotate {
+  font-size: 2em; /* 회전 버튼 폰트 크기 증가 */
+}
+
+.direction-button:hover {
+  background-color: #737373;
+  border: 1px solid #e7e964;
+}
+
+.direction-button.active {
+  background-color: #e7e964;
+  color: #2b2633;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.4);
+}

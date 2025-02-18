@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="그룹_18547" data-name="그룹 18547" transform="translate(-2678 -8353)">
+    <g id="그룹_18535" data-name="그룹 18535" transform="translate(0 164)">
+      <rect id="사각형_23996" data-name="사각형 23996" width="30" height="30" transform="translate(2678 8189)" fill="none"/>
+    </g>
+    <g id="chart.bar.xaxis" transform="translate(2680.974 8358.209)">
+      <rect id="사각형_23901" data-name="사각형 23901" width="24.052" height="19.587" fill="#fff" opacity="0"/>
+      <path id="패스_7690" data-name="패스 7690" d="M0,17.323a.851.851,0,0,0,.848.848H22.8a.85.85,0,0,0,0-1.7H.848A.858.858,0,0,0,0,17.323Z" transform="translate(0 1.416)" fill="#fff"/>
+      <path id="패스_7691" data-name="패스 7691" d="M16.787,14.624a.887.887,0,0,0,.986.944h2.45a.892.892,0,0,0,.986-.944V7.615a.9.9,0,0,0-.986-.954h-2.45a.9.9,0,0,0-.986.954Z" transform="translate(1.443 0.572)" fill="#fff"/>
+      <path id="패스_7692" data-name="패스 7692" d="M11.494,15.005a.892.892,0,0,0,.986.944h2.45a.9.9,0,0,0,1-.944V3.17a.9.9,0,0,0-1-.944H12.48a.892.892,0,0,0-.986.944Z" transform="translate(0.988 0.191)" fill="#fff"/>
+      <path id="패스_7693" data-name="패스 7693" d="M6.211,15.2a.884.884,0,0,0,.976.944h2.46a.892.892,0,0,0,.986-.944V.944A.892.892,0,0,0,9.647,0H7.187a.884.884,0,0,0-.976.944Z" transform="translate(0.534)" fill="#fff"/>
+      <path id="패스_7694" data-name="패스 7694" d="M.918,14.812a.892.892,0,0,0,.986.944h2.45a.9.9,0,0,0,1-.944V5.426a.9.9,0,0,0-1-.944H1.9a.9.9,0,0,0-.986.944Z" transform="translate(0.079 0.385)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

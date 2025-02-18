@@ -1,0 +1,51 @@
+{
+  "name": "robot-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@mui/icons-material": "^5.16.6",
+    "@mui/material": "^5.16.7",
+    "axios": "^0.24.0",
+    "express": "^4.21.1",
+    "http": "^0.0.1-security",
+    "jotai": "^1.5.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-draggable": "^4.4.6",
+    "react-dropzone": "^14.2.3",
+    "react-query": "^3.34.0",
+    "react-router-dom": "^6.0.2",
+    "react-scripts": "5.0.0",
+    "react-slider": "^2.0.6",
+    "react-transition-group": "^4.4.5",
+    "socket.io": "^4.8.0",
+    "socket.io-client": "^4.8.0",
+    "sqlite3": "^5.1.7"
+  },
+  "scripts": {
+    "start": "PORT=3342 react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

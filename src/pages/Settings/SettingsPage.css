@@ -1,0 +1,50 @@
+.settings-page {
+  background-color: #2b2633;
+  color: white;
+  padding: 20px 40px;
+  margin-top: 20px;
+}
+
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.page-title {
+  font-size: 21px;
+  font-weight: 600;
+  font-family: Pretendard, sans-serif;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.amr-select-container {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.amr-select-container select {
+  padding: 6px 10px;
+  font-size: 16px;
+}
+
+.controls-row {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr; /* 첫 번째 칸이 두 배 넓게 설정 */
+  gap: 20px;
+  align-items: stretch; /* 모든 컴포넌트가 동일한 높이를 갖도록 설정 */
+}
+
+.controls-row > * {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.amr-settings-container {
+  margin-top: 20px;
+}

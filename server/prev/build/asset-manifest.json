@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.01837d2a.css",
+    "main.js": "/static/js/main.052cc519.js",
+    "static/media/robotimg_arrow.png": "/static/media/robotimg_arrow.10e63ebbe8f9712db28e.png",
+    "static/media/layout6.png": "/static/media/layout6.3ac2e58732f6bc60ce50.png",
+    "static/media/imrobotics_logo.png": "/static/media/imrobotics_logo.f9a974a2881f3477d581.png",
+    "static/media/dataanalysis.svg": "/static/media/dataanalysis.0f3d94503e2b53203259f371ebf93624.svg",
+    "static/media/settings.svg": "/static/media/settings.40049299423f1f5d07e039c8f6570489.svg",
+    "static/media/robot-icon.svg": "/static/media/robot-icon.808966b166edfac73fb498ab43b879cb.svg",
+    "static/media/list.svg": "/static/media/list.1fe2fe815b63648940bcf601b86ec87c.svg",
+    "static/media/home.svg": "/static/media/home.876a4103e08b0345f6e2c4d2724aab37.svg",
+    "static/media/map.svg": "/static/media/map.08d754ffc81723137f2c76a71953dd25.svg",
+    "static/media/logout.svg": "/static/media/logout.35398c913eea27e9ed8f6e1b3e2ad9b1.svg",
+    "index.html": "/index.html",
+    "static/media/remove.svg": "/static/media/remove.48e510aac5d1a8a17587611f172bc77e.svg",
+    "static/media/pause.svg": "/static/media/pause.ae59b92a21bbbd291564010eda5a7b9b.svg",
+    "static/media/expand.svg": "/static/media/expand.cf3dbe200490c59b5b23279b1e2f7633.svg",
+    "static/media/play.svg": "/static/media/play.03a293b4b40bbdd81a47db3e8ac98187.svg",
+    "static/media/edit-icon.svg": "/static/media/edit-icon.b576bb1dc4b4d9e6f1add23e999686f4.svg",
+    "static/media/plus.svg": "/static/media/plus.1876ee5ee95dd35e705eed27c3d553fa.svg",
+    "static/media/minus.svg": "/static/media/minus.0f9d553d668594a95e650b6aac48d641.svg",
+    "main.01837d2a.css.map": "/static/css/main.01837d2a.css.map",
+    "main.052cc519.js.map": "/static/js/main.052cc519.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.01837d2a.css",
+    "static/js/main.052cc519.js"
+  ]
+}

@@ -1,0 +1,9 @@
+/* src/MapEditor/RobotMapList.module.css */
+
+.robotListContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    position: relative; /* 부모 컨테이너가 각 요소의 기준점이 됨 */
+  }
+  

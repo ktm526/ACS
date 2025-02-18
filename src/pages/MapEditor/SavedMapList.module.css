@@ -1,0 +1,194 @@
+/* src/MapEditor/SavedMapList.module.css */
+
+/* 오버레이 컨테이너 */
+.overlayContainer {
+  position: relative;
+}
+
+/* 어두운 오버레이 배경 */
+.overlayBackground {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 9;
+}
+
+/* 기본 컨테이너 */
+.container {
+  background-color: #2b2633;
+  border: 2px solid #59575e;
+  border-radius: 10px;
+  padding: 15px;
+  width: 280px;
+  color: white;
+  transition: max-height 0.3s ease;
+  max-height: 50px; /* 기본 높이 */
+  overflow: hidden;
+  position: relative;
+  z-index: 10;
+}
+
+/* 확장 상태 */
+.expanded {
+  max-height: 350px; /* 확장 시 최대 높이 */
+}
+
+/* 헤더 */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.robotInfo {
+  display: flex;
+  align-items: center;
+}
+
+/* UID와 IP를 세로로 배치하는 컨테이너 */
+.robotDetails {
+  display: flex;
+  flex-direction: column;
+}
+
+/* 로봇 UID 스타일 */
+.robotUID {
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+}
+
+/* 로봇 IP 주소 스타일 (작고 연한 회색 글씨) */
+.robotIP {
+  font-size: 12px;
+  font-weight: 400;
+  color: #aaa; /* 연한 회색 */
+  margin-top: 4px; /* UID와 간격 조절 */
+}
+
+/* 로봇 아이콘 */
+.robotIcon {
+  width: 24px;
+  height: 24px;
+  fill: white;
+  margin-right: 10px;
+}
+
+/* 확장/축소 토글 버튼 */
+.expandToggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.expandIcon {
+  width: 16px;
+  height: 16px;
+  fill: white;
+}
+
+.rotated .expandIcon {
+  transform: rotate(180deg);
+}
+
+
+.listItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  border-bottom: 1px solid #707070;
+}
+
+.listItem:hover {
+  background-color: #3a3a4f;
+}
+
+/* 파일 이름 */
+.fileName {
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+}
+
+/* 편집 아이콘 */
+.editIcon {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  fill: #aaa;
+}
+
+.editIcon:hover {
+  fill: #e7e964;
+}
+
+/* 새로운 파일 추가 텍스트 */
+.addNewFile {
+  font-size: 12px;
+  font-weight: 500;
+  color: #e7e964;
+  text-align: center;
+  padding: 12px;
+  cursor: pointer;
+}
+
+.fileList {
+  max-height: 300px; /* 최대 높이 설정 */
+  margin-top: 20px;
+  overflow-y: auto; /* 스크롤 활성화 */
+  padding-right: 10px; /* 스크롤바 여유 공간 */
+}
+
+.currentMap {
+  font-weight: bold;
+  color: #e7e964; /* 강조 표시 색상 */
+  background-color: rgba(231, 233, 100, 0.1); /* 배경색 변경 */
+  border-left: 4px solid #e7e964;
+}
+
+.mapViewerOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7); /* 배경 어둡게 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* 맨 위에 표시 */
+}
+
+.mapViewerModal {
+  border-radius: 10px;
+  padding: 20px;
+  width: 80%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+}
+
+.mapViewerCloseButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: transparent;
+  border: none;
+  font-size: 24px;
+  color: black;
+  cursor: pointer;
+  z-index: 1100;
+}
+
+.mapViewerTitle {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}

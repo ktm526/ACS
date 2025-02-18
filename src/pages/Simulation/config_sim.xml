@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Simulation>
+	<Resolution SimulationResolution="0.1"/> 
+	<Speed SimulationSpeed = "2"/> 
+	<Scale GraphicScale ="1"/> 
+	<VehicleCount VehicleCount ="5"/>
+	<PerformanceMeasureLoadCount PerformanceMeasureLoadCount="50"/>
+	<DefaultXmlFileName DefaultXmlFileName="YangSan_Layout.xml"/> //맵 파일 이름
+	<VertexOccupationMargin VertexOccupationMargin="5"/>
+	<PathCounter PathCounter="2"/> //alt path 개수
+	<SupportMultiPath SupportMultiPath="false"/> // defalt (세팅 x)
+	<DefaultMapMinPathFileName DefaultMapMinPathFileName="DefaultMapMinPath.bin"/> // defalt (세팅 x)
+	<DefaultMapMultiPathFileName DefaultMapMultiPathFileName="DefaultMapMultiPath.bin"/> // defalt (세팅 x)
+	<EntranceMaximumReservationNum  EntranceMaximumReservationNum="5"/> // 노드 대기 버퍼
+	<MultiPathDistanceTolerance MultiPathDistanceTolerance="600"/> //
+	//로봇들 초기 정보
+</Simulation>

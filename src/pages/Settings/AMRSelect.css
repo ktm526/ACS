@@ -1,0 +1,45 @@
+.amr-select {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 0;
+  border-radius: 20px;
+}
+
+.label {
+  color: #8F8E9A;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1;
+}
+
+.select {
+  padding: 8px 12px;
+  border: 1px solid #59575E;
+  border-radius: 4px;
+  background-color: #3A3845;
+  color: white;
+  box-sizing: border-box;
+  font-size: 16px;
+  height: auto;
+  appearance: none;
+  flex-grow: 1;
+}
+
+/* 기본 placeholder 옵션 스타일 */
+.select option[disabled][hidden] {
+  color: #8F8E9A; /* 더 연한 색상 */
+  font-size: 14px; /* 더 작은 글씨 크기 */
+}
+
+/* 선택 시 하이라이트 색상 */
+.select:focus {
+  outline: none;
+  border-color: #e7e964; /* 브랜드 색상으로 하이라이트 */
+}
+
+/* 드롭다운 옵션의 하이라이트 컬러 */
+.select option:checked {
+  background-color: #e7e964; /* 브랜드 색상 */
+  color: white;
+}

@@ -1,0 +1,165 @@
+/* 페이지 전체 스타일 */
+.page-container {
+  border: none;
+  border-radius: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.section-container {
+  margin-bottom: 30px;
+}
+
+.section-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+/* 테이블 스타일 */
+.table-container {
+  width: 100%;
+  overflow-x: auto; /* 가로 스크롤 지원 */
+  overflow-y: auto;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+.header-row,
+.table-row {
+  display: grid;
+  grid-template-columns: 50px repeat(11, 1fr); /* 삭제 버튼 포함 12열 */
+  align-items: center;
+  text-align: center;
+  height: 50px; /* 셀 높이 통일 */
+  border-bottom: 1px solid #707070; /* 구분선 추가 */
+}
+.header-row {
+  background-color: #59575e;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 0;
+}
+
+.table-cell {
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+  padding: 8px;
+  color: #ffffff;
+  word-wrap: break-word; /* 텍스트 줄바꿈 */
+  overflow-wrap: break-word;
+  max-width: 150px; /* 열 너비 제한 */
+  text-overflow: ellipsis; /* 말줄임 표시 */
+  overflow: hidden; /* 넘치는 텍스트 숨김 */
+  white-space: normal; /* 기본 줄바꿈 허용 */
+}
+
+.table-header-item {
+  font-weight: 600;
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  padding: 8px;
+  max-width: 150px; /* 헤더 너비 제한 */
+  white-space: normal; /* 헤더 텍스트 줄바꿈 허용 */
+}
+
+.table-cell:first-child {
+  text-align: center; /* 삭제 버튼 가운데 정렬 */
+}
+
+/* 행 구분선 */
+.row-divider {
+  height: 1px;
+  background-color: #707070;
+  margin: 0 15px;
+}
+
+/* 삭제 버튼 스타일 */
+.delete-task-button {
+  padding: 5px;
+  background-color: transparent; /* 투명 배경 */
+  color: #ec6a5e; /* 가위표 색상 */
+  border: none;
+  font-size: 18px; /* 크기 조정 */
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.delete-task-button:hover {
+  transform: scale(1.2); /* 가위표 확대 효과 */
+  color: #ff5f5f; /* 호버 시 색상 변경 */
+}
+
+.delete-task-button:active {
+  transform: scale(0.9); /* 클릭 시 축소 효과 */
+}
+
+/* 새 태스크 입력 폼 스타일 */
+.new-task-form-container {
+  margin-top: 20px;
+  padding: 0;
+}
+
+.new-task-form-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 10px;
+  text-align: left; /* 왼쪽 정렬 */
+}
+
+.new-task-form {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr); /* 한 줄에 6칸 */
+  gap: 15px; /* 입력 필드 간격 */
+  align-items: center;
+  border: 1px solid #59575e;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.new-task-form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.new-task-form-group label {
+  font-weight: 400;
+  font-size: 12px;
+  margin-bottom: 5px;
+  color: #ffffff;
+}
+
+.new-task-form-group input,
+.new-task-form-group select {
+  padding: 8px;
+  border: 1px solid #707070;
+  border-radius: 5px;
+  background-color: transparent; /* 배경색 없음 */
+  color: #ffffff;
+}
+
+.new-task-form-group input:focus,
+.new-task-form-group select:focus {
+  outline: none;
+  border-color: #e7e964;
+}
+
+.add-task-button {
+  grid-column: span 6; /* 버튼은 전체 행을 차지 */
+  padding: 10px 20px;
+  margin: 0 auto;
+  background-color: #e7e964;
+  color: darkslategray;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.add-task-button:hover {
+  background-color: #d5d15b;
+  transform: scale(1.05);
+}
